@@ -1,0 +1,175 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    margin: auto;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.125rem;
+}
+
+h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 20px;
+    margin-left: -50px;
+
+}
+
+hr {
+    position: absolute;
+    width: 400px;
+    margin: 325px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.top {
+    position: relative;
+    bottom: 450px;
+    right: 320px;
+}
+
+.bottom {
+    position: relative;
+    left: 760px;
+    bottom: 590px;
+}
+
+.middle-container {
+    background-color: white;
+    position: absolute;
+    z-index: auto;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    width: 400px;
+    height: 410px;
+    border-radius: 15px;
+   
+}
+
+.card {
+    position: absolute;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.img {
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -50px;
+}
+
+.name {
+    position: absolute;
+    left: 11rem;
+    color: black;
+    font-weight: 700;
+    line-height: 2;
+    
+
+}
+span.age {
+    color: hsl(227, 10%, 46%);
+    display: inline-block;
+    padding-left: 8px;
+
+
+}
+
+.location {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 70px;
+    margin-left: -30px;
+    color: hsl(227, 10%, 46%);
+}
+
+.num1 {
+    position: absolute;
+    margin: auto;
+    display: inline-block;
+    font-weight: 700;
+    top: 350px;
+    padding-left: 60px;
+}
+
+.num2{
+    position: absolute;
+    margin: auto;
+    display: inline-block;
+    font-weight: 700;
+    top: 350px;
+    padding-left: 180px;
+}
+
+.num3 {
+    position: absolute;
+    margin: auto;
+    display: inline-block;
+    top: 350px;
+    right: 60px;
+    font-weight: 700;
+
+}
+
+.followers {
+    position: absolute;
+    margin: auto;
+    display: inline-block;
+    color: hsl(227, 10%, 46%);
+    top: 380px;
+    padding-left: 45px;
+    font-size: small;
+    letter-spacing: 1px;
+    font-weight: 500;
+
+}
+
+.likes {
+    position: absolute;
+    margin: auto;
+    display: inline-block;
+    color: hsl(227, 10%, 46%);
+    top: 380px;
+    padding-left: 185px;
+    font-size: small;
+    letter-spacing: 1px;
+    font-weight: 500;
+
+}
+
+.photos {
+    position: absolute;
+    margin: auto;
+    display: inline-block;
+    color: hsl(227, 10%, 46%);
+    top: 380px;
+    right: 53px;
+    font-size: small;
+    letter-spacing: 1px;
+    font-weight: 500;
+
+}
+
+.attribution {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    color: black;
+    top: 970px;
+    left: 730px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
